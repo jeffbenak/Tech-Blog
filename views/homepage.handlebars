@@ -1,17 +1,27 @@
 <!-- Loop over each object in the posts array -->
+<header>
+<h1 id="tech">The Tech Blog
+      </h1>
+      </header>
 {{#each posts as |post| }}
 <div class="row mb-4 post">
-  <div class="col-md-5">
+  <div id="content" class="col-md-10">
     <h2>
+      
       <!-- Call helper function with triple brackets to render the emoji span as HTML -->
-      <a href="/post/{{post.id}}">{{post.title}}</a>
+      {{!-- <a href="/post/{{post.id}}">{{post.title}}</a> --}}
     </h2>
-    <p>{{post.body}}</p>
-    <p>
+    <div id="top">
+    <p id ="title">{{post.title}}</p>
+    <p id="date">Created by {{post.user.name}} on {{format_date post.date_created}}</p>
+    </div>
+    <p id ="body">{{post.body}}</p>
+    
   </div>
-  <div class="col-md-7">
+  <div>
     <p>
-      {{post.description}}
+    
+
     </p>
   </div>
 </div>
