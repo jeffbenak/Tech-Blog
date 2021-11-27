@@ -11,4 +11,4 @@
 - You can click on the title of your post to view it, and edit it as well. 
 
 ## Deployed Link 
-
+- https://jb-tech-blog.herokuapp.com/
