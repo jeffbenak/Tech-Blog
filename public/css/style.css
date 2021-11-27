@@ -119,3 +119,21 @@ header, .project:not(:last-child) {
   padding-left: 27px;
   box-shadow: 5px 10px rgb(51, 51, 51);
 }
+#sign {
+  display: block;
+
+
+}
+
+#posts {
+  display: inline-block;
+  padding-left: 500px;
+}
+
+#forum {
+  padding-left: 400px;
+}
+
+#delete {
+  margin-left: 250px;
+}

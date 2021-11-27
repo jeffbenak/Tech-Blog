@@ -1,6 +1,16 @@
-# 14 Model-View-Controller (MVC): Tech Blog
+# Tech Blog
 
-## Your Task
+## Description 
+- This project is a full stack application that allows you to create an account on the site, and add your own posts of any topic you'd like. All of your posts are saved in your profile and you can view/ update them whenever you'd like. 
+
+## Usage 
+- To use the application, you need to sign up on the site and create your own account.
+- Then from there put a post title and body and click create, and then your post will be created. 
+- To view your posts, click on the "Your Posts" link below the create button, and you will see all of your posts.
+- There is a delete option next to your post as well if you'd like to delete any of your posts. 
+- You can click on the title of your post to view it, and edit it as well. 
+
+## Deployed Link 
 
 Writing about tech can be just as important as making it. Developers spend plenty of time creating new applications and debugging existing codebases, but most developers also spend at least some of their time reading and writing about technical concepts, recent advancements, and new technologies. A simple Google search for any concept covered in this course returns thousands of think pieces and tutorials from developers of all skill levels!
 
