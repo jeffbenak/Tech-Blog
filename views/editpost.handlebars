@@ -1,0 +1,27 @@
+
+    <h2>Edit Post</h2> 
+    <div>
+     <form id="edit-post">
+  <p>Created by {{user.name}} on {{format_date date_created}}</p>
+  
+  
+
+<div>
+<label for="post-label">Title</label>
+<textarea type="text" id="post-title">{{title}}</textarea>
+
+</div>
+
+<div>
+<label for="post-label">Content</label>
+<textarea type="text" id="post-body">{{body}}</textarea>
+
+</div>
+<div>
+<button type="submit">Edit</button>
+<input id="post-id" type="hidden" value="{{post.id}}"/>
+</div>
+
+</form>
+
+<script src="/js/edit.js"></script>
