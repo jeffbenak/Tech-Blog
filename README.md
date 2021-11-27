@@ -1,7 +1,7 @@
 # Tech Blog
 
 ## Description 
-- This project is a full stack application that allows you to create an account on the site, and add your own posts of any topic you'd like. All of your posts are saved in your profile and you can view/ update them whenever you'd like. 
+- This project is a full stack application that allows you to create an account on the site, and add your own posts of any topic you'd like. All of your posts are saved in your profile and you can view/ update them whenever you'd like. You can also delete any post you no longer want to keep.
 
 ## Usage 
 - To use the application, you need to sign up on the site and create your own account.
